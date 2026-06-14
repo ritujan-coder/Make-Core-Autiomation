@@ -1,7 +1,8 @@
 # Make-Core-Autiomation
 "Collection of my intermediate Make.com automation workflows including OpenAI, Webhooks, and Google Sheets integrations."
 
-![Workflow Diagram](image_637262.png)
+<img width="1917" height="935" alt="Screenshot 2026-06-14 104656" src="https://github.com/user-attachments/assets/ca00d22b-f694-4932-9c51-ee7b1bae9f10" />
+
 
 # 🤖 AI-Powered Amazon Affiliate Content Engine
 

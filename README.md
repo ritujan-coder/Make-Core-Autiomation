@@ -1,5 +1,8 @@
 # Make-Core-Autiomation
 "Collection of my intermediate Make.com automation workflows including OpenAI, Webhooks, and Google Sheets integrations."
+
+![Workflow Diagram](image_637262.png)
+
 # 🤖 AI-Powered Amazon Affiliate Content Engine
 
 An advanced Make.com workflow that automates product research, AI content generation, data logging, and social media publishing.

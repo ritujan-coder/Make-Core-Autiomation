@@ -22,3 +22,25 @@ An advanced Make.com workflow that automates product research, AI content genera
 * **Sequential AI Chaining:** Multi-step prompt dependency inside Make.com.
 * **Data Cleansing:** Variable lifetime mapping and text manipulation.
 * **Database Management:** Auto-logging structures via Google Sheets API.
+
+
+---
+
+# 🔀 Project 2: Router-Based Conditional Data Pipeline
+
+A logic-driven Make.com scenario that demonstrates conditional routing, data filtering, and multi-branch segregation based on source criteria.
+
+## 📊 Workflow Structure & Logic
+
+1. **Google Sheets (Watch Rows):** Acts as the automated trigger, instantly capturing new incoming rows of unorganized data.
+2. **Router Module:** Evaluates the incoming data attributes against specific pre-defined filter criteria (e.g., separating leads by departments like Marketing, Software, or Ecommerce).
+3. **Tools (Set Variable Branches):** Dynamically processes and re-assigns localized variables based on the successful route, isolating data streams for precise backend operations.
+
+## 🛠️ Tech Stack & Concepts Used
+* **Advanced Routing:** Implementing multi-route logical forks inside Make.com.
+* **Data Filtering:** Setting up exact matching conditions to control scenario paths.
+* **State Management:** Using the Tools module to handle runtime variables dynamically.
+
+## 🖼️ Workflow Diagram
+<img width="1920" height="1080" alt="Screenshot 2026-06-15 162710" src="https://github.com/user-attachments/assets/bce0fe95-ba9c-4dbb-b235-a3cf0c78a949" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-15 162634" src="https://github.com/user-attachments/assets/6e7a96bd-844d-44a6-92fc-541a9198794a" />

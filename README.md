@@ -44,3 +44,48 @@ A logic-driven Make.com scenario that demonstrates conditional routing, data fil
 ## 🖼️ Workflow Diagram
 <img width="1920" height="1080" alt="Screenshot 2026-06-15 162710" src="https://github.com/user-attachments/assets/bce0fe95-ba9c-4dbb-b235-a3cf0c78a949" />
 <img width="1920" height="1080" alt="Screenshot 2026-06-15 162634" src="https://github.com/user-attachments/assets/6e7a96bd-844d-44a6-92fc-541a9198794a" />
+
+---
+
+# ⚡ Project 3: Webhook-Triggered AI Email & Logging Pipeline
+
+An instant, event-driven Make.com workflow designed to process real-time incoming webhooks, leveraging AI for content generation, automating Gmail draft creations, and maintaining centralized logging.
+
+## 📊 Workflow Structure & Logic
+
+1. **Custom Webhooks:** Acts as an instant, real-time trigger that catches data immediately when an external event occurs.
+2. **OpenAI GPT (Module 3):** Dynamically processes the incoming webhook payload to structure or generate customized content based on prompt instructions.
+3. **Gmail (Create a Draft):** Automatically crafts and structures a professional email draft using the AI-generated response.
+4. **Google Sheets (Add a Row):** Logs the operational metadata, webhook details, and system responses into a tracking spreadsheet for audits.
+
+## 🛠️ Tech Stack & Concepts Used
+* **Instant Triggers:** Working with custom webhooks for zero-latency automation.
+* **AI Content Generation:** Transforming raw payload data into contextual email copy.
+* **Cross-Platform Synchronization:** Chaining communication channels (Gmail) with databases (Google Sheets) smoothly.
+
+## 🖼️ Workflow Diagram
+<img width="1920" height="1020" alt="Screenshot 2026-06-15 164831" src="https://github.com/user-attachments/assets/3ca8c52e-9b1b-4cec-83bb-78892d3fe84e" />
+<img width="1920" height="1020" alt="Screenshot 2026-06-15 164429" src="https://github.com/user-attachments/assets/0817971b-749b-450f-ac37-d53c51134aff" />
+
+---
+
+# 📊 Project 4: Multi-Stage AI Content Filtering & Email Pipeline
+
+A highly optimized Google Sheets triggered workflow featuring multi-stage OpenAI context processing and execution filters for targeted email drafting.
+
+## 📊 Workflow Structure & Logic
+
+1. **Google Sheets (Watch New Rows):** Triggers automatically whenever a new row of raw data or user input is logged.
+2. **Execution Filters:** Advanced logical constraints placed between modules to ensure only qualified data passes to the AI processing stage.
+3. **OpenAI GPT (Module 2 - Initial Processing):** Analyzes the raw sheet inputs to synthesize core concepts, draft initial copy, or categorize intent.
+4. **OpenAI GPT (Module 3 - Refinement & SEO):** Takes the output of the first AI model, reviews it, and refines it into a polished, professional messaging layout.
+5. **Gmail (Create a Draft):** Automatically compiles the multi-stage refined AI response into a structured, ready-to-send email draft.
+
+## 🛠️ Tech Stack & Concepts Used
+* **Data Guardrails:** Implementing Make.com filters between modules for criteria validation.
+* **Sequential AI Refinement:** Chaining two distinct LLM layers to improve final copy quality.
+* **Asynchronous Execution:** Seamlessly transforming static spreadsheet data into active marketing assets.
+
+## 🖼️ Workflow Diagram
+<img width="1920" height="1020" alt="Screenshot 2026-06-15 164943" src="https://github.com/user-attachments/assets/bb1be96a-1944-4c67-b8fe-4d9f04473b8a" />
+<img width="1920" height="1020" alt="Screenshot 2026-06-15 164928" src="https://github.com/user-attachments/assets/e3f6dcb9-00c6-4031-a8c1-8b595c8b3eea" />
